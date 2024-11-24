@@ -25,7 +25,6 @@ import BlogCard from './components/BlogCard';
 import Footer from './components/Footer';
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
-import Typical from "react-typical";
 
 
 function Page() {
@@ -54,20 +53,7 @@ function Page() {
 
       {/* Hero Section  */}
       <div style={{ backgroundColor: '#E2F5FB' }} className='min-h-screen  p-2 md:p-10 mx-1 md:mx-10 m-auto'>
-      <h1 className="text-4xl md:text-8xl font-bold text-blue-950 text-center">
-      <Typical
-        steps={[
-          "Essential Vitamins", 
-          2000,                
-          "Boost Your Health", 
-          2000,
-          "Feel Your Best",    
-          2000,
-        ]}
-        loop={Infinity} 
-        wrapper="span" 
-      />
-    </h1>
+      <h1 className='text-3xl md:text-8xl font-bold text-blue-950 text-center'>Essential Vitamins</h1>
         <div className='w-full flex flex-col md:flex-row justify-between'>
           <div className='w-[100%] md:w-[28%] h-[250px] md:h-[380px]  flex flex-col justify-center item-start md:items-end'>
             <div className='w-52 flex flex-col justify-center items-start gap-6'>
